@@ -1,7 +1,7 @@
 {
-  "name": "lab-2",
+  "name": "lab-3",
   "version": "1.0.0",
-  "description": "todos using express server",
+  "description": "Crud Opreations",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/ahadlyy/ToDo-node-js.git"
   },
-  "keywords": [
-    "express",
-    "/",
-    "node",
-    "js"
-  ],
   "author": "Ahmed Adly",
   "license": "ISC",
   "bugs": {
@@ -23,6 +17,7 @@
   },
   "homepage": "https://github.com/ahadlyy/ToDo-node-js#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
   }
 }

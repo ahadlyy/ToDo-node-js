@@ -4,13 +4,14 @@ const router = express.Router();
 
 
 router.route('/:id')
-.get(todosController.getTodoById);
+.get(todosController.getTodoById)
+.post(todosController.addTodoswithid)
+.delete(todosController.deleteTodo);
 
 router.route('/')
 .get(todosController.getAllTodos)
-.post(todosController.addTodos)
 .patch(todosController.updateTodo)
-.delete(todosController.deleteTodo);
+
 
 
 
